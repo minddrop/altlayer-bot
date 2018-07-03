@@ -1,7 +1,6 @@
 import discord
 import random
 from discord.ext import commands
-token = 'ALTLAYER_BOT_TOKEN'
 
 client = discord.Client()
 bot = commands.Bot(command_prefix='!')
@@ -27,4 +26,4 @@ async def on_message(message):
             await client.send_message(message.channel, member[r])
 
 
-client.run(token)
+client.run(ALTLAYER_BOT_TOKEN)
