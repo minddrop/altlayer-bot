@@ -26,4 +26,4 @@ async def on_message(message):
             await client.send_message(message.channel, member[r])
 
 
-client.run(ALTLAYER_BOT_TOKEN)
+client.run('ALTLAYER_BOT_TOKEN')
