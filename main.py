@@ -5,7 +5,7 @@ from discord.ext import commands
 
 client = discord.Client()
 bot = commands.Bot(command_prefix='!')
-token = os.environ['ALTLAYER_BOT_TOKEN']
+token = os.environ.get['ALTLAYER_BOT_TOKEN']
 
 
 @client.event
